@@ -2,14 +2,14 @@ CREATE DATABASE EmployeeDB;
 CREATE TABLE Department
 (
 	ID INT PRIMARY KEY,
-	Name VARCHAR(5),
+	Name VARCHAR(10),
 	Location VARCHAR(10),
 );
 
 CREATE TABLE Employee
 (
 	ID INT PRIMARY KEY,
-	FirstName VARCHAR(5),
+	FirstName VARCHAR(10),
 	LastName VARCHAR(10),
 	SSN INT,
 	DeptID INT
@@ -22,7 +22,7 @@ CREATE TABLE EmpDetails
 	EmployeeID INT
 		FOREIGN KEY REFERENCES Employee(ID),
 	Salary INT,
-	Address_1 INT,
+	Address_1 VARCHAR(10),
 	City VARCHAR(10),
 	State VARCHAR(10),
 	Country VARCHAR(10),
