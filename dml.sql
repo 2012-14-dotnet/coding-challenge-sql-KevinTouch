@@ -19,7 +19,7 @@ VALUES
 
 INSERT INTO Employee
 VALUES
-	(2, "John", "Doe", 123456789, 3);
+	(3, "John", "Doe", 123456789, 3);
 
 INSERT INTO EmpDetails
 VALUES
@@ -32,7 +32,7 @@ VALUES
 
 INSERT INTO EmpDetails
 VALUES
-	(2, 2, 60000, "12345 Fake6 St.", "12345 Fake7 St.", "TX", "Austin", "United States" );
+	(3, 3, 60000, "12345 Fake6 St.", "12345 Fake7 St.", "TX", "Austin", "United States" );
 
 SELECT *
 FROM Department

@@ -4,8 +4,6 @@ CREATE TABLE Department
 	ID INT(3) PRIMARY KEY,
 	Name VARCHAR(5),
 	Location VARCHAR(10),
-	PRIMARY KEY (ID)
-
 );
 
 CREATE TABLE Employee
